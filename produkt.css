@@ -1,0 +1,19 @@
+
+
+
+body {
+	background-image:url("../bakgrund.PNG");
+	color:#000000;
+	background-color:#ffff66;
+	background-position:center;
+	text-align:center;}
+
+fieldset{
+	background-position:center;
+	text-align: center;
+	background-color: #d6d6c2;
+	
+	}
+article{
+	background-position:center;
+}
