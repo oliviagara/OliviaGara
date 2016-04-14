@@ -5,50 +5,63 @@
 			<title>pysselboxen</title>
 			<meta charset="utf-8">
 			<link href="../styles/bootstrap.css" rel="stylesheet" />
-		<style>
-			article{background-color:;}
-			header{background-color:pink;}
-		</style>
+			<link href="../styles/pysselbox.css" rel="stylesheet" />
+		
 	</head>
 
 
 	<body>
 		<section class="container">
-			<div class="row">
-			<header class="col-sm-4"><img src="../bilder/logga.png"></header>
-			<header class="col-sm-5">en tom bild i headern</header>
-			<header class="col-sm-3">sökfunktion</header>
-			<header class="col-sm-4"></header>
-			<header class="col-sm-8">
-				<nav>
-					<a href="varaboxar.html">Våra boxar</a>
-					<a href="faq.html">FAQ</a>
-					<a href="minasidor.html">Mina sidor</a>
-					<a href="minasidor.html">Inspiration</a>
-					<a href="minasidor.html">Om pysselboxen</a>
-				</nav>
-			</header>
-			</div>
-		</section>
-
-		<section class="container">
-			<div class="row">
-				<article class="col-sm-4"><img src="../bilder/barn.png"></article>
-				<article class="col-sm-8"><img src="../bilder/bigarticle.png"></article>
-				<article class="col-sm-4"><img src="../bilder/1.png"></article>
-				<article class="col-sm-4"><img src="../bilder/2.png"></article>
-				<article class="col-sm-4"><img src="../bilder/3.png"></article>
+			<header class="row">
+				<div class="col-sm-4"><img src="../bilder/logga.png" alt="logga"></div>
+				<div class="col-sm-5">en tom bild i headern</div>
+				<div class="col-sm-3">
+					<form>
+						<input type="search" name="Sök" placeholder="Ditt sök ord"/>
+						<input type="submit" value="Sök"/>
+					</form>
 				</div>
-		</section>
+			
+				<header class="row">
+				<div class="col-sm-4"></div>
+				<div class="col-sm-8">
+					<nav>
+						<a href="varaboxar.html">Våra boxar</a>
+						<a href="faq.html">FAQ</a>
+						<a href="minasidor.html">Mina sidor</a>
+						<a href="minasidor.html">Inspiration</a>
+						<a href="minasidor.html">Om pysselboxen</a>
+					</nav>
+				</div>
+			</header>
+			
 
-		<section class="container">
-			<div class="row">
-				<footer class="col-sm-4"><small>1.liten text i footern..</small></footer>
-				<footer class="col-sm-4"><small>2.liten text i footern..</small></footer>
-				<footer class="col-sm-4"><small>3.liten text i footern..</small></footer>
+			<article class="row">
+				<div class="col-sm-4"><img src="../bilder/barn.png" alt="pysselbarn"></div>
+				<div class="article1" class="col-sm-8"><h1>Skräddarsytt pyssel för din familj direkt i brevlådan, så ofta du vill!</h1>
+				<input type="submit" class="cta" value="Beställ din box här" action="varaboxar.html"/></div>
+			
+			<article class="row">
+				<div class="col-sm-4"><img src="../bilder/1.png" alt="steg1"></div>
+				<div class="col-sm-4"><img src="../bilder/2.png" alt="steg2"></div>
+				<div class="col-sm-4"><img src="../bilder/3.png" alt="steg3"></div>
+			</article>
+
+
+			<footer class="row">
+				<div class="col-sm-4"><small>| Om Pysselboxen | <br>
+											| FAQ | </small></div>
+				<div class="col-sm-4"><small>Kundservice 020- 3567 33</small></div>
+				<div class="socialam" class="col-sm-4"> 
+					<a href="https://se.pinterest.com/"><img src="../bilder/pin.png" alt="pinterest"></a>
+					<a href="<https://www.youtube.com/?hl=sv&gl=SE"><img src="../bilder/youtube.png" alt="youtube"></a>
+					<a href="https://www.facebook.com/"><img src="../bilder/facebook.png" alt="facebook"></a>
+					<a href="https://twitter.com/?lang=sv"><img src="../bilder/twitter.png" alt="twitter"></a>
+				
 			</div>
+		</footer>
 		</section>
-
+	</body>
 
 
 </html>

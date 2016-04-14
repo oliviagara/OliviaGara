@@ -1,0 +1,34 @@
+body{
+	color:#000000;
+	background-image:url("../bilder/bakgrund.PNG");
+	}
+
+header{
+		border:1px solid black;
+		background-color:#ccccb3;
+}
+header img{
+	height:;
+	width:;
+}
+	img{
+	opacity: 0.8;
+}
+.cta{
+	background-color:#99ffdd;
+	height:50px;
+	width:150px;
+	border-radius:35%;
+	border: none;
+}
+.article1{
+	text-align:center;
+}
+.socialam{
+	float: right;
+	padding-top:10px;
+}
+footer{
+	background-color:#ccccb3;
+	height: 100px;
+}
