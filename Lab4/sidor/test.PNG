@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+		<title>Grund</title>
+		<meta charset="utf-8">
+		<link href="styles/cssguld.css" rel="stylesheet" />
+		<meta name="description" content="Fakta om Guld, skrivet i lättläst text.">
+		<meta name="keywords" content="Guld, smältpunkt, kokpunkt, användningsområde, au">
+		<meta name="author" content="Olivia Garå">
+</head>
+
+
+<body>
+	<header>
+		
+	</body>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <img src="images/hjulet.jpg" />
+            <nav>
+                <ol>
+                    <li><a href="loivia.html">våra boxar</a></li>
+                    <li><a href="loivia.html">FAQ</a></li>
+                    <li><a href="loivia.html">sidoe</a></li>
+                    <li><a href="loivia.html">inspiri </a></li>
+                    <li><a href="loivia.html">Kaninern</a></li>
+                </ol>
+                <span>Sök</span><input placeholder="Ditt sökord" />
+            </nav>
+           
+        </div>
+        <div class="row mjau">
+            <h2>Skräddarsytt kaninmaterial för dig</h2>
+            <h3>och din kanin</h3>
+        </div>
+        <div class="row">rad 3</div>
+        <div class="row">rad 4</div>
+
+    </div>
+
+</html>
+
+ +</body>
+ +</html>
