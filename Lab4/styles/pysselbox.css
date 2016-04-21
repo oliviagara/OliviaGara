@@ -1,4 +1,9 @@
 
+@media only screen and (min-width: 500px) {
+	body {
+		min-height:500px;
+	}
+}
 /*HEADER*/
 header{
 		padding:20px 10px;
@@ -11,15 +16,20 @@ a:hover{
 }
 
 .meny{/*mina menyer i headern*/
-	display: inline;
+	display: inline ;
 	padding-left:20px;
-	margin-top: 20px;
+	padding-top: 20px;
 	color: black;
 	text-shadow:2px 2px 3px #ffffff;
 }
+
 header img{
 width: 350px;
 float: left;
+}
+form{
+	float:right;
+	padding-top:40px;
 }
 /*ARTICLE*/
 
@@ -37,9 +47,11 @@ img{
 	width:150px;
 	border-radius:35%;
 	border: none;
+	margin:10px auto 10px auto;
+	color: black;
 }
 
-.one{/*min stora artikel*/
+.one{/*min stora artikel på första sidan*/
 	background-image: url("../bilder/barn.png");
 	background-position: left-side;
 	background-repeat: no-repeat;
@@ -48,11 +60,129 @@ img{
 	padding-left:350px;
 	padding-top:30px;
 }
-form{
-	float:right;
-	padding-top:40px;
+#produktartikel{
+	height:500px;
+	border-bottom:2px solid #99ffdd;
+	margin-bottom:5px;
 }
 
+iframe{/*Mina filmer på våraboxar sidan*/
+	width: 300px; 
+	height: 200px;
+	border: 4px solid #99ffdd;
+	margin: 5px;
+}
+.boxinfo{
+	text-align:left;
+	margin: 0px 10px 30px 10px;
+}
+.pris{ /*Mina köp knappar på produktsidan*/
+	background-color:#99ffdd;
+	height: 50px;
+	width: 150px;
+	color: black;
+	border:none;
+	position:center;
+}
+
+/*MINA SIDOR*/
+
+#uppgifter{
+	
+	border-left: 2px solid #99ffdd;
+}
+#uppgifter h2{
+	text-align:left;
+	border-bottom: 2px solid #99ffdd;
+}
+#menyminasidor{/*vänstra menyn i mina sidor*/
+	color: black;
+	padding-left: 10px;
+	text-shadow:5px 5px 3px #ccccb3;
+}
+#understruken{/*sidan jag är på får en border under sig.*/
+	border-bottom: 2px solid #99ffdd;
+}
+#minauppgifterartikel{ /*min artikel på sidan mina sidor*/
+	height:440px;
+	border-left: 2px solid #99ffdd;
+}
+/*mina poäng*/
+.pysselbilder{ /*rutan som bilderna ligger i*/
+	width: 185px;
+	height: 210px;
+	margin-left:20px;
+	padding: 5px;
+	opacity:none;
+	border: 2px dashed #ccccb3;
+	margin-bottom:5px;
+	margin-top:5px;
+	
+	
+}
+figcaption{
+	font-size: 0,9rem;
+	text-align:right;
+}
+.minasidorbild{
+	width:170px;
+	height:180px;
+}
+.pysselbilderbred{ /*rutan som liggade bilder ligger i*/
+	width: 255px;
+	height: 210px;
+	margin-left:20px;
+	padding: 5px;
+	opacity:none;
+	border: 2px dashed #ccccb3;
+	margin-bottom:5px;
+	margin-top:5px;
+	
+	
+}
+.minasidorbildbred{ /*bilder som är liggande*/
+	width:240px;
+	height:180px;
+}
+a{
+	color: black;
+}
+/*Sidan med alla betalsätt*/
+#betalsida{
+	height:500px;
+}
+#betalsida fieldset{
+	margin-top: 40px;
+}
+/*Undersökningen efter betalning*/
+.tre form{
+	float:left;
+	height:800px;
+}
+.tre{
+	margin-left:30px;
+}
+.tre form p{
+	margin: 12px 0 3px 0;
+}
+/*LOGGA IN SIDAN*/
+.two{/*min logga in artikel*/
+	background-image: url("../bilder/barn.png");
+	background-position: left-side;
+	background-repeat: no-repeat;
+	text-align:left;
+	height:430px;
+	padding-left:350px;
+	padding-top:30px;
+}
+.two fieldset{
+	background-color:#ffe6ff;
+	opacity:0.8;
+	border: 2px dashed #ccccb3;
+	padding: 15px;
+	padding-left: 15px;
+	margin-right:200px;
+}
 
 /*FOOTER*/
 

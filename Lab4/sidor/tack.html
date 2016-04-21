@@ -1,0 +1,90 @@
+<!doctype html>
+	<html lang="sv">
+	<head>
+			<title>Tack för din beställning!</title>
+			<meta charset="utf-8">
+			<link href="../styles/bootstrap.css" rel="stylesheet" />
+			<link href="../styles/pysselbox.css" rel="stylesheet" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+
+	<body>
+		<div class="container">
+			<header class="row">
+				<a href="../index.html"><img src="../bilder/logga.png" alt="logga"></a>
+			<nav>
+					<a class="meny" href="varaboxar.html">Våra boxar</a>
+					<a class="meny" href="faq.html">FAQ</a>
+					<a class="meny" href="minasidor.html">Mina sidor</a>
+					<a class="meny" href="inspiration.html">Inspiration </a>
+					<a class="meny" href="ompysselboxen.html">Om pysselboxen</a>
+					<a class="meny" href="loggain.html"> Logga in</a>
+				<form>
+					<input type="search" name="Sök" placeholder="Ditt sök ord"/>
+					<input type="submit" value="Sök"/>
+				</form>
+			</nav>
+			</header>
+
+			<article class="row tre">
+				<h2> Tack för din beställning!</h2>
+				<p>Vi på pysselboxen är glada att du valt en box från oss och vi hoppas innehållet i boxen passar dina önskemål.
+				Du är självklart välkommen att ringa till kunservice om du har funderingar. Men för att vi ska utvecklas ännu mer
+				har vi valt att göra en kort undersökning.</p> 
+				<p>Det är såklart valfritt att delta, men eftersom vi är så generösa så bjuder vi på 50 poäng
+				om du svarar. Skriv in din mejl nedan så skickar vi in poängen till ditt konto!</p>
+				
+			<form>
+				<p><b>1.Vänligen välj kön:</b></p>
+				<label> <input type="radio" name="gender" value="man"/> Man</label><br>
+				<label> <input type="radio" name="gender" value="kvinna"/> Kvinna</label><br>
+				<label> <input type="radio" name="gender" value="hen"/> Hen</label><br>
+			
+				<p><b>2.Skriv in din ålder:</b></p>
+				<input type="number" name="age"/>
+			
+				<br><p><b>3.Är du nöjd med leveransen vid senaste köp?</b></p>
+				<input type="checkbox" required="required" name="leverans" value="ja" id="ja"/> 
+				<label for="ja" >Ja</label> <br/>
+				<input type="checkbox" name="leverans" value="nej" id="nej"/> <label for="nej" >Nej</label><br>
+				<label for="meddelande">Om inte, berätta gärna varför:</label> <br>
+				<textarea id="meddelande" cols="45" rows="5"> </textarea> <br>
+			
+				<p><b>4.Vilken pyssel kategori är du mest intresserad av på vår hemsida?</b></p>
+				<input type="checkbox" name="sticka" value="sticka" id="sticka"/> <label for="sticka">Sticka</label><br>
+				<input type="checkbox" name="lera" value="lera" id="lera"/> <label for="lera">Modell lera</label><br>
+				<input type="checkbox" name="smycke" value="smycke" id="smycke"/> <label for="smycke">Smyckes tillverkning</label><br>
+				<input type="checkbox" name="papper" value="papper" id="papper"/> <label for="papper">Pappers pyssel</label><br>
+				<input type="checkbox" name="hogtid" value="hogtid" id="hogtid"/> <label for="hogtid">Högtids relaterat</label><br>
+				
+				<p><b>5.Tycker du det är lätt att hitta och navigera på vår hemsida?</b></p>
+				<select name="navigering">
+					<option value="latt">Lätt att hitta rätt</option>
+					<option value="krangligt">Lite krångligt att hitta rätt</option>
+					<option value="svart">Svårt att hitta rätt</option>
+				</select>
+				<p><b>Din email för att få dina poäng</b><br></p>
+				<input type="email" name="email"/>
+				<br><br>
+				<input class="pris" type="submit" value="Stort tack!"/>
+				<br>
+			</form>
+			</article>
+
+			<footer class="row">
+				<div id="fottext" class="col-sm-4"><small><a href="ompysselboxen.html">| Om pysselboxen |</a><br>
+											<a href="faq.html">| FAQ |</a></small></div>
+				<div class="col-sm-4"><small>Kundservice 0707-700700</small></div>
+				<div id="socialam" class="col-sm-4"> 
+					<a href="https://se.pinterest.com/"><img src="../bilder/pin.png" alt="pinterest"></a>
+					<a href="https://www.youtube.com/?hl=sv&gl=SE"><img src="../bilder/youtube.png" alt="youtube"></a>
+					<a href="https://www.facebook.com/"><img src="../bilder/facebook.png" alt="facebook"></a>
+					<a href="https://twitter.com/?lang=sv"><img src="../bilder/twitter.png" alt="twitter"></a>
+				</div>
+			</footer>
+		</div>
+	</body>
+
+
+</html>
